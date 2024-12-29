@@ -1,0 +1,26 @@
+[
+    {
+        "date": "1979",
+        "icon": "bi-calendar",
+        "title": "Born",
+        "description": "Born in Ahmadnagar, Maharashtra."
+    },
+    {
+        "date": "2005",
+        "icon": "bi-people",
+        "title": "Started Social Work",
+        "description": "Started social work with Anna Hazare."
+    },
+    {
+        "date": "2010",
+        "icon": "bi-globe",
+        "title": "Community Initiatives",
+        "description": "Initiated efforts for an alcohol-free Kharghar."
+    },
+    {
+        "date": "2024",
+        "icon": "bi-star",
+        "title": "Political Milestone",
+        "description": "Key candidate in Panvel Mahanagar Palika elections."
+    }
+]
