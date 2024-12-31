@@ -1,0 +1,120 @@
+/* Components */
+.my-btn {
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    font-family: var(--font-family-primary);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.my-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Overrides for Bootstrap */
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover-color) !important;
+    border-color: var(--primary-hover-color) !important;
+}
+
+/* Reusable Components */
+.my-card {
+    background: white;
+    padding: calc(var(--spacing-unit) * 2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.my-card:hover {
+    transform: scale(1.02);
+}
+
+.my-navbar {
+    font-family: var(--font-family-primary);
+    background-color: white;
+    border-bottom: 2px solid var(--primary-color);
+    padding: var(--spacing-unit);
+}
+
+.my-navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+}
+
+.my-navbar-logo {
+    height: 50px;
+    max-height: 10vh;
+    object-fit: contain;
+}
+
+.my-progress-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    z-index: 1030;
+    background: rgba(255, 153, 51, 0.1);
+}
+
+.my-progress-bar {
+    width: 0%;
+    height: 100%;
+    background: var(--primary-color);
+    transition: width 0.1s ease-out;
+}
+
+/* Hero Section */
+.my-hero {
+    background: linear-gradient(rgba(255, 153, 51, 0.9), rgba(255, 153, 51, 0.9)), url('hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    padding: calc(var(--spacing-unit) * 12) 0;
+    text-align: center;
+}
+
+.my-hero-title {
+    font-family: var(--font-family-primary);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: var(--spacing-unit);
+}
+
+.my-hero-subtitle {
+    font-family: var(--font-family-secondary);
+    font-size: 1.2rem;
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.my-hero-buttons .my-btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.my-hero-buttons .my-btn-primary:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.my-hero-buttons .my-btn-outline {
+    border-color: white;
+    color: white;
+}
+
+.my-hero-buttons .my-btn-outline:hover {
+    background-color: white;
+    color: var(--primary-color);
+}

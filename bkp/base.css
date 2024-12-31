@@ -1,0 +1,55 @@
+/* base.css */
+
+/* Variables */
+:root {
+    --primary-color: #FF9933;
+    --primary-hover-color: #CC7A29;
+    --secondary-color: #28A745;
+    --text-color: #333;
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Roboto', sans-serif;
+    --spacing-unit: 8px;
+}
+
+/* Utility Classes */
+.my-margin {
+    margin: var(--spacing-unit);
+}
+
+.my-padding {
+    padding: var(--spacing-unit);
+}
+
+.my-text-center {
+    text-align: center;
+}
+
+.my-text-primary {
+    color: var(--primary-color);
+}
+
+.my-bg-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.my-bg-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.my-border {
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.my-shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+    .my-hide-mobile {
+        display: none !important;
+    }
+}
